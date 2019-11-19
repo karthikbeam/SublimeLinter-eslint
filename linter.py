@@ -30,7 +30,7 @@ class ESLint(NodeLinter):
     )
     line_col_base = (1, 1)
     defaults = {
-        'selector': 'source.js - meta.attribute-with-value',
+        'selector': 'source.ts, source.js - meta.attribute-with-value',
         '--stdin-filename': '${file}'
     }
 
